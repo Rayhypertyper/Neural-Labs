@@ -1,0 +1,681 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-17T20:51:40.259416Z",
+  "title": "Design System: Neural Labs",
+  "extensions": {
+    "colorMeta": {
+      "ink": {
+        "role": "neutral",
+        "displayName": "Blue-gray Ink",
+        "tonalRamp": [
+          "oklch(15% 0.0340 247.26)",
+          "oklch(26% 0.0340 247.26)",
+          "oklch(38% 0.0340 247.26)",
+          "oklch(49% 0.0340 247.26)",
+          "oklch(61% 0.0340 247.26)",
+          "oklch(72% 0.0340 247.26)",
+          "oklch(84% 0.0340 247.26)",
+          "oklch(95% 0.0340 247.26)"
+        ]
+      },
+      "muted": {
+        "role": "neutral",
+        "displayName": "Muted Blue-gray",
+        "tonalRamp": [
+          "oklch(15% 0.0267 240.44)",
+          "oklch(26% 0.0267 240.44)",
+          "oklch(38% 0.0267 240.44)",
+          "oklch(49% 0.0267 240.44)",
+          "oklch(61% 0.0267 240.44)",
+          "oklch(72% 0.0267 240.44)",
+          "oklch(84% 0.0267 240.44)",
+          "oklch(95% 0.0267 240.44)"
+        ]
+      },
+      "cool-ground": {
+        "role": "neutral",
+        "displayName": "Cool Ground",
+        "tonalRamp": [
+          "oklch(15% 0.0034 247.86)",
+          "oklch(26% 0.0034 247.86)",
+          "oklch(38% 0.0034 247.86)",
+          "oklch(49% 0.0034 247.86)",
+          "oklch(61% 0.0034 247.86)",
+          "oklch(72% 0.0034 247.86)",
+          "oklch(84% 0.0034 247.86)",
+          "oklch(95% 0.0034 247.86)"
+        ]
+      },
+      "surface": {
+        "role": "neutral",
+        "displayName": "White Surface",
+        "tonalRamp": [
+          "oklch(15% 0.0000 0.00)",
+          "oklch(26% 0.0000 0.00)",
+          "oklch(38% 0.0000 0.00)",
+          "oklch(49% 0.0000 0.00)",
+          "oklch(61% 0.0000 0.00)",
+          "oklch(72% 0.0000 0.00)",
+          "oklch(84% 0.0000 0.00)",
+          "oklch(95% 0.0000 0.00)"
+        ]
+      },
+      "border": {
+        "role": "neutral",
+        "displayName": "Quiet Border",
+        "tonalRamp": [
+          "oklch(15% 0.0067 233.64)",
+          "oklch(26% 0.0067 233.64)",
+          "oklch(38% 0.0067 233.64)",
+          "oklch(49% 0.0067 233.64)",
+          "oklch(61% 0.0067 233.64)",
+          "oklch(72% 0.0067 233.64)",
+          "oklch(84% 0.0067 233.64)",
+          "oklch(95% 0.0067 233.64)"
+        ]
+      },
+      "teal": {
+        "role": "primary",
+        "displayName": "Research Teal",
+        "tonalRamp": [
+          "oklch(15% 0.0908 177.92)",
+          "oklch(26% 0.0908 177.92)",
+          "oklch(38% 0.0908 177.92)",
+          "oklch(49% 0.0908 177.92)",
+          "oklch(61% 0.0908 177.92)",
+          "oklch(72% 0.0908 177.92)",
+          "oklch(84% 0.0908 177.92)",
+          "oklch(95% 0.0908 177.92)"
+        ]
+      },
+      "teal-deep": {
+        "role": "primary",
+        "displayName": "Deep Research Teal",
+        "tonalRamp": [
+          "oklch(15% 0.0812 178.91)",
+          "oklch(26% 0.0812 178.91)",
+          "oklch(38% 0.0812 178.91)",
+          "oklch(49% 0.0812 178.91)",
+          "oklch(61% 0.0812 178.91)",
+          "oklch(72% 0.0812 178.91)",
+          "oklch(84% 0.0812 178.91)",
+          "oklch(95% 0.0812 178.91)"
+        ]
+      },
+      "teal-pale": {
+        "role": "primary",
+        "displayName": "Pale Research Teal",
+        "tonalRamp": [
+          "oklch(15% 0.0186 171.51)",
+          "oklch(26% 0.0186 171.51)",
+          "oklch(38% 0.0186 171.51)",
+          "oklch(49% 0.0186 171.51)",
+          "oklch(61% 0.0186 171.51)",
+          "oklch(72% 0.0186 171.51)",
+          "oklch(84% 0.0186 171.51)",
+          "oklch(95% 0.0186 171.51)"
+        ]
+      },
+      "action": {
+        "role": "primary",
+        "displayName": "Action Teal",
+        "tonalRamp": [
+          "oklch(15% 0.0885 173.42)",
+          "oklch(26% 0.0885 173.42)",
+          "oklch(38% 0.0885 173.42)",
+          "oklch(49% 0.0885 173.42)",
+          "oklch(61% 0.0885 173.42)",
+          "oklch(72% 0.0885 173.42)",
+          "oklch(84% 0.0885 173.42)",
+          "oklch(95% 0.0885 173.42)"
+        ]
+      },
+      "action-hover": {
+        "role": "primary",
+        "displayName": "Action Teal Hover",
+        "tonalRamp": [
+          "oklch(15% 0.0841 173.12)",
+          "oklch(26% 0.0841 173.12)",
+          "oklch(38% 0.0841 173.12)",
+          "oklch(49% 0.0841 173.12)",
+          "oklch(61% 0.0841 173.12)",
+          "oklch(72% 0.0841 173.12)",
+          "oklch(84% 0.0841 173.12)",
+          "oklch(95% 0.0841 173.12)"
+        ]
+      },
+      "mission": {
+        "role": "secondary",
+        "displayName": "Mission Coral",
+        "tonalRamp": [
+          "oklch(15% 0.1203 44.17)",
+          "oklch(26% 0.1203 44.17)",
+          "oklch(38% 0.1203 44.17)",
+          "oklch(49% 0.1203 44.17)",
+          "oklch(61% 0.1203 44.17)",
+          "oklch(72% 0.1203 44.17)",
+          "oklch(84% 0.1203 44.17)",
+          "oklch(95% 0.1203 44.17)"
+        ]
+      },
+      "mission-hover": {
+        "role": "secondary",
+        "displayName": "Mission Coral Hover",
+        "tonalRamp": [
+          "oklch(15% 0.1195 45.07)",
+          "oklch(26% 0.1195 45.07)",
+          "oklch(38% 0.1195 45.07)",
+          "oklch(49% 0.1195 45.07)",
+          "oklch(61% 0.1195 45.07)",
+          "oklch(72% 0.1195 45.07)",
+          "oklch(84% 0.1195 45.07)",
+          "oklch(95% 0.1195 45.07)"
+        ]
+      },
+      "mission-surface": {
+        "role": "primary",
+        "displayName": "Mission Mint",
+        "tonalRamp": [
+          "oklch(15% 0.0232 161.74)",
+          "oklch(26% 0.0232 161.74)",
+          "oklch(38% 0.0232 161.74)",
+          "oklch(49% 0.0232 161.74)",
+          "oklch(61% 0.0232 161.74)",
+          "oklch(72% 0.0232 161.74)",
+          "oklch(84% 0.0232 161.74)",
+          "oklch(95% 0.0232 161.74)"
+        ]
+      },
+      "mission-ink": {
+        "role": "primary",
+        "displayName": "Mission Green Ink",
+        "tonalRamp": [
+          "oklch(15% 0.0686 161.03)",
+          "oklch(26% 0.0686 161.03)",
+          "oklch(38% 0.0686 161.03)",
+          "oklch(49% 0.0686 161.03)",
+          "oklch(61% 0.0686 161.03)",
+          "oklch(72% 0.0686 161.03)",
+          "oklch(84% 0.0686 161.03)",
+          "oklch(95% 0.0686 161.03)"
+        ]
+      },
+      "periwinkle": {
+        "role": "secondary",
+        "displayName": "Periwinkle",
+        "tonalRamp": [
+          "oklch(15% 0.0923 276.99)",
+          "oklch(26% 0.0923 276.99)",
+          "oklch(38% 0.0923 276.99)",
+          "oklch(49% 0.0923 276.99)",
+          "oklch(61% 0.0923 276.99)",
+          "oklch(72% 0.0923 276.99)",
+          "oklch(84% 0.0923 276.99)",
+          "oklch(95% 0.0923 276.99)"
+        ]
+      },
+      "budget": {
+        "role": "tertiary",
+        "displayName": "Budget Orange",
+        "tonalRamp": [
+          "oklch(15% 0.1289 50.15)",
+          "oklch(26% 0.1289 50.15)",
+          "oklch(38% 0.1289 50.15)",
+          "oklch(49% 0.1289 50.15)",
+          "oklch(61% 0.1289 50.15)",
+          "oklch(72% 0.1289 50.15)",
+          "oklch(84% 0.1289 50.15)",
+          "oklch(95% 0.1289 50.15)"
+        ]
+      },
+      "lilac-surface": {
+        "role": "secondary",
+        "displayName": "Notebook Lilac",
+        "tonalRamp": [
+          "oklch(15% 0.0162 297.52)",
+          "oklch(26% 0.0162 297.52)",
+          "oklch(38% 0.0162 297.52)",
+          "oklch(49% 0.0162 297.52)",
+          "oklch(61% 0.0162 297.52)",
+          "oklch(72% 0.0162 297.52)",
+          "oklch(84% 0.0162 297.52)",
+          "oklch(95% 0.0162 297.52)"
+        ]
+      },
+      "gold-surface": {
+        "role": "tertiary",
+        "displayName": "Reward Gold Surface",
+        "tonalRamp": [
+          "oklch(15% 0.0384 83.83)",
+          "oklch(26% 0.0384 83.83)",
+          "oklch(38% 0.0384 83.83)",
+          "oklch(49% 0.0384 83.83)",
+          "oklch(61% 0.0384 83.83)",
+          "oklch(72% 0.0384 83.83)",
+          "oklch(84% 0.0384 83.83)",
+          "oklch(95% 0.0384 83.83)"
+        ]
+      },
+      "gold-ink": {
+        "role": "tertiary",
+        "displayName": "Reward Gold Ink",
+        "tonalRamp": [
+          "oklch(15% 0.0794 76.00)",
+          "oklch(26% 0.0794 76.00)",
+          "oklch(38% 0.0794 76.00)",
+          "oklch(49% 0.0794 76.00)",
+          "oklch(61% 0.0794 76.00)",
+          "oklch(72% 0.0794 76.00)",
+          "oklch(84% 0.0794 76.00)",
+          "oklch(95% 0.0794 76.00)"
+        ]
+      },
+      "observatory-surface": {
+        "role": "neutral",
+        "displayName": "Observatory Paper",
+        "tonalRamp": [
+          "oklch(15% 0.0025 165.08)",
+          "oklch(26% 0.0025 165.08)",
+          "oklch(38% 0.0025 165.08)",
+          "oklch(49% 0.0025 165.08)",
+          "oklch(61% 0.0025 165.08)",
+          "oklch(72% 0.0025 165.08)",
+          "oklch(84% 0.0025 165.08)",
+          "oklch(95% 0.0025 165.08)"
+        ]
+      },
+      "observatory-header": {
+        "role": "neutral",
+        "displayName": "Observatory Header",
+        "tonalRamp": [
+          "oklch(15% 0.0083 157.09)",
+          "oklch(26% 0.0083 157.09)",
+          "oklch(38% 0.0083 157.09)",
+          "oklch(49% 0.0083 157.09)",
+          "oklch(61% 0.0083 157.09)",
+          "oklch(72% 0.0083 157.09)",
+          "oklch(84% 0.0083 157.09)",
+          "oklch(95% 0.0083 157.09)"
+        ]
+      },
+      "observatory-training": {
+        "role": "secondary",
+        "displayName": "Observatory Training Lilac",
+        "tonalRamp": [
+          "oklch(15% 0.0868 298.32)",
+          "oklch(26% 0.0868 298.32)",
+          "oklch(38% 0.0868 298.32)",
+          "oklch(49% 0.0868 298.32)",
+          "oklch(61% 0.0868 298.32)",
+          "oklch(72% 0.0868 298.32)",
+          "oklch(84% 0.0868 298.32)",
+          "oklch(95% 0.0868 298.32)"
+        ]
+      },
+      "observatory-baseline": {
+        "role": "neutral",
+        "displayName": "Baseline Gray",
+        "tonalRamp": [
+          "oklch(15% 0.0217 159.45)",
+          "oklch(26% 0.0217 159.45)",
+          "oklch(38% 0.0217 159.45)",
+          "oklch(49% 0.0217 159.45)",
+          "oklch(61% 0.0217 159.45)",
+          "oklch(72% 0.0217 159.45)",
+          "oklch(84% 0.0217 159.45)",
+          "oklch(95% 0.0217 159.45)"
+        ]
+      },
+      "signal-forward": {
+        "role": "primary",
+        "displayName": "Forward Signal",
+        "tonalRamp": [
+          "oklch(15% 0.0987 168.77)",
+          "oklch(26% 0.0987 168.77)",
+          "oklch(38% 0.0987 168.77)",
+          "oklch(49% 0.0987 168.77)",
+          "oklch(61% 0.0987 168.77)",
+          "oklch(72% 0.0987 168.77)",
+          "oklch(84% 0.0987 168.77)",
+          "oklch(95% 0.0987 168.77)"
+        ]
+      },
+      "signal-backward": {
+        "role": "secondary",
+        "displayName": "Backward Signal",
+        "tonalRamp": [
+          "oklch(15% 0.0883 312.54)",
+          "oklch(26% 0.0883 312.54)",
+          "oklch(38% 0.0883 312.54)",
+          "oklch(49% 0.0883 312.54)",
+          "oklch(61% 0.0883 312.54)",
+          "oklch(72% 0.0883 312.54)",
+          "oklch(84% 0.0883 312.54)",
+          "oklch(95% 0.0883 312.54)"
+        ]
+      },
+      "mission-copy": {
+        "role": "primary",
+        "displayName": "Mission Body Green",
+        "tonalRamp": [
+          "oklch(15% 0.0460 158.78)",
+          "oklch(26% 0.0460 158.78)",
+          "oklch(38% 0.0460 158.78)",
+          "oklch(49% 0.0460 158.78)",
+          "oklch(61% 0.0460 158.78)",
+          "oklch(72% 0.0460 158.78)",
+          "oklch(84% 0.0460 158.78)",
+          "oklch(95% 0.0460 158.78)"
+        ]
+      },
+      "mission-action-ink": {
+        "role": "secondary",
+        "displayName": "Mission Action Ink",
+        "tonalRamp": [
+          "oklch(15% 0.0505 41.83)",
+          "oklch(26% 0.0505 41.83)",
+          "oklch(38% 0.0505 41.83)",
+          "oklch(49% 0.0505 41.83)",
+          "oklch(61% 0.0505 41.83)",
+          "oklch(72% 0.0505 41.83)",
+          "oklch(84% 0.0505 41.83)",
+          "oklch(95% 0.0505 41.83)"
+        ]
+      },
+      "mission-action-ink-hover": {
+        "role": "secondary",
+        "displayName": "Mission Action Ink Hover",
+        "tonalRamp": [
+          "oklch(15% 0.0472 42.05)",
+          "oklch(26% 0.0472 42.05)",
+          "oklch(38% 0.0472 42.05)",
+          "oklch(49% 0.0472 42.05)",
+          "oklch(61% 0.0472 42.05)",
+          "oklch(72% 0.0472 42.05)",
+          "oklch(84% 0.0472 42.05)",
+          "oklch(95% 0.0472 42.05)"
+        ]
+      },
+      "inspector-copy": {
+        "role": "neutral",
+        "displayName": "Field-guide Green",
+        "tonalRamp": [
+          "oklch(15% 0.0331 155.92)",
+          "oklch(26% 0.0331 155.92)",
+          "oklch(38% 0.0331 155.92)",
+          "oklch(49% 0.0331 155.92)",
+          "oklch(61% 0.0331 155.92)",
+          "oklch(72% 0.0331 155.92)",
+          "oklch(84% 0.0331 155.92)",
+          "oklch(95% 0.0331 155.92)"
+        ]
+      },
+      "observatory-validation": {
+        "role": "primary",
+        "displayName": "Observatory Validation Teal",
+        "tonalRamp": [
+          "oklch(15% 0.0932 179.66)",
+          "oklch(26% 0.0932 179.66)",
+          "oklch(38% 0.0932 179.66)",
+          "oklch(49% 0.0932 179.66)",
+          "oklch(61% 0.0932 179.66)",
+          "oklch(72% 0.0932 179.66)",
+          "oklch(84% 0.0932 179.66)",
+          "oklch(95% 0.0932 179.66)"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Mission Display",
+        "purpose": "Heavy rounded contract headline; base 37px with responsive adjustments."
+      },
+      "headline": {
+        "displayName": "Stage Headline",
+        "purpose": "Primary title of the active research stage."
+      },
+      "title": {
+        "displayName": "Section Title",
+        "purpose": "Section and field-guide hierarchy; smaller variants appear inside panels."
+      },
+      "body": {
+        "displayName": "Working Copy",
+        "purpose": "Root text role; compact educational and working copy uses smaller 10–11px variants."
+      },
+      "label": {
+        "displayName": "Control Label",
+        "purpose": "Field labels and compact navigation language."
+      }
+    },
+    "shadows": [
+      {
+        "name": "action",
+        "value": "0 3px 6px #297d6b0b",
+        "purpose": "Quiet tactile depth under the primary button."
+      },
+      {
+        "name": "mission-action",
+        "value": "0 4px 9px #b7744d15",
+        "purpose": "Warm lift under the coral mission action."
+      },
+      {
+        "name": "specimen",
+        "value": "0 10px 24px #37624916",
+        "purpose": "Lift beneath tilted image specimens."
+      },
+      {
+        "name": "pipeline-hover",
+        "value": "0 8px 20px #28534807",
+        "purpose": "Small lift for an actionable pipeline card."
+      },
+      {
+        "name": "tooltip",
+        "value": "0 10px 34px #253e3424",
+        "purpose": "Educational tooltip above the work area."
+      },
+      {
+        "name": "modal",
+        "value": "0 20px 80px #1b352c25",
+        "purpose": "Transient confirmation layer."
+      },
+      {
+        "name": "observatory-dock",
+        "value": "0 -8px 24px #233d3210",
+        "purpose": "Quiet upward edge beneath the persistent learning instrument."
+      }
+    ],
+    "motion": [
+      {
+        "name": "button-transition",
+        "value": "background 0.18s, color 0.18s, transform 0.18s",
+        "purpose": "Default button state changes."
+      },
+      {
+        "name": "press",
+        "value": "translateY(1px)",
+        "purpose": "Tactile feedback during active button press."
+      },
+      {
+        "name": "pipeline-lift",
+        "value": "translateY(-3px)",
+        "purpose": "Pipeline-card hover response."
+      },
+      {
+        "name": "drawer-transition",
+        "value": "transform 0.25s",
+        "purpose": "Mobile navigation and help drawer transitions."
+      },
+      {
+        "name": "reduced-motion",
+        "value": "prefers-reduced-motion: reduce",
+        "purpose": "Remove animations and transitions, and use automatic scroll behavior."
+      },
+      {
+        "name": "observatory-signal",
+        "value": "ob-signal-flow 1.3s linear infinite; stroke-dasharray: 5 8; stroke-dashoffset: -39",
+        "purpose": "Illustrative forward signal during active training or replay; backward phase reverses path direction and uses purple."
+      },
+      {
+        "name": "observatory-weight-update",
+        "value": "ob-weight-update 1.5s ease-in-out infinite alternate; stroke-width: 1 to 2.5",
+        "purpose": "Conceptual node-weight update cue, not a measured gradient."
+      },
+      {
+        "name": "observatory-status",
+        "value": "ob-status-pulse 1.5s ease-in-out infinite; opacity: 1 to 0.4",
+        "purpose": "Active training or replay state dot."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "mobile-max",
+        "value": "640px"
+      },
+      {
+        "name": "observatory-network-focus-max",
+        "value": "700px"
+      },
+      {
+        "name": "compact-max",
+        "value": "900px"
+      },
+      {
+        "name": "observatory-compact-chart-max",
+        "value": "1100px"
+      },
+      {
+        "name": "help-drawer-max",
+        "value": "1199px"
+      },
+      {
+        "name": "narrow-desktop-max",
+        "value": "1350px"
+      },
+      {
+        "name": "wide-desktop-min",
+        "value": "1600px"
+      }
+    ],
+    "focusRings": [
+      {
+        "name": "control",
+        "value": "2px solid #268c7c; outline-offset: 4px",
+        "purpose": "Visible keyboard focus on buttons and standard controls."
+      },
+      {
+        "name": "field",
+        "value": "2px solid #dcece5; outline-offset: 1px; border-color: #78ad99",
+        "purpose": "Focused number inputs and selects."
+      }
+    ],
+    "sourceNotes": [
+      "Extracted from src/styles.css, src/components/observatory.css and representative components.",
+      "Observatory documentation records the persistent dock, compact and expanded behavior, and learning-first visual grammar; the signature preview is a small self-contained excerpt, not a reproduction of all app controls or states.",
+      "Tonal ramps are synthesized OKLCH preview metadata, not additional application palette tokens.",
+      "Final release documentation follows the cascade-resolved contrast corrections in src/styles.css; explicit Observatory data colors remain distinct from the global teal token."
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Default consequential workflow action.",
+      "html": "<button class=\"ds-primary\" type=\"button\">Run experiment<svg width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M5 12h14m-6-6 6 6-6 6\"/></svg></button>",
+      "css": ".ds-primary{font-family:\"Nunito Sans Variable\",-apple-system,BlinkMacSystemFont,\"Segoe UI\",sans-serif;box-sizing:border-box;display:inline-flex;align-items:center;justify-content:center;gap:9px;border:1px solid transparent;border-radius:7px;padding:11px 16px;font-size:10px;font-weight:750;line-height:1.4;min-height:36px;white-space:nowrap;cursor:pointer;transition:background .18s,color .18s,transform .18s;background:#247c67;color:var(--surface,#fff);box-shadow:0 3px 6px #297d6b0b;}.ds-primary:hover{background:#227460;}.ds-primary:focus-visible{outline:2px solid #268c7c;outline-offset:4px;}.ds-primary:active:not(:disabled){transform:translateY(1px)}.ds-primary:disabled{opacity:.46;cursor:not-allowed}@media(prefers-reduced-motion:reduce){.ds-primary{transition:none}}"
+    },
+    {
+      "name": "Mission Button",
+      "kind": "button",
+      "refersTo": "button-mission",
+      "description": "Coral entry action inside the contract overview.",
+      "html": "<button class=\"ds-mission\" type=\"button\">Begin research<svg width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M5 12h14m-6-6 6 6-6 6\"/></svg></button>",
+      "css": ".ds-mission{font-family:\"Nunito Sans Variable\",-apple-system,BlinkMacSystemFont,\"Segoe UI\",sans-serif;box-sizing:border-box;display:inline-flex;align-items:center;justify-content:center;gap:9px;border:1px solid transparent;border-radius:7px;padding:11px 16px;font-size:10px;font-weight:750;line-height:1.4;min-height:36px;white-space:nowrap;cursor:pointer;transition:background .18s,color .18s,transform .18s;background:#ed946d;color:#4b2c20;border-color:#ed946d;box-shadow:0 4px 9px #b7744d15;}.ds-mission:hover{background:#e38c64;color:#3f2318;}.ds-mission:focus-visible{outline:2px solid #268c7c;outline-offset:4px;}.ds-mission:active:not(:disabled){transform:translateY(1px)}.ds-mission:disabled{opacity:.46;cursor:not-allowed}@media(prefers-reduced-motion:reduce){.ds-mission{transition:none}}"
+    },
+    {
+      "name": "Secondary Button",
+      "kind": "button",
+      "refersTo": "button-secondary",
+      "description": "White bordered action for supporting tasks.",
+      "html": "<button class=\"ds-secondary\" type=\"button\">Compare runs<svg width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M5 12h14m-6-6 6 6-6 6\"/></svg></button>",
+      "css": ".ds-secondary{font-family:\"Nunito Sans Variable\",-apple-system,BlinkMacSystemFont,\"Segoe UI\",sans-serif;box-sizing:border-box;display:inline-flex;align-items:center;justify-content:center;gap:9px;border:1px solid transparent;border-radius:7px;padding:11px 16px;font-size:10px;font-weight:750;line-height:1.4;min-height:36px;white-space:nowrap;cursor:pointer;transition:background .18s,color .18s,transform .18s;background:var(--surface,#fff);color:#5a6e7a;border-color:#dfe6e9;}.ds-secondary:hover{background:#f1f6f5;border-color:#c9d9d3;}.ds-secondary:focus-visible{outline:2px solid #268c7c;outline-offset:4px;}.ds-secondary:active:not(:disabled){transform:translateY(1px)}.ds-secondary:disabled{opacity:.46;cursor:not-allowed}@media(prefers-reduced-motion:reduce){.ds-secondary{transition:none}}"
+    },
+    {
+      "name": "Number Field",
+      "kind": "input",
+      "refersTo": "input-number",
+      "description": "Labeled configuration control with a quiet surface and sage focus treatment.",
+      "html": "<div class=\"ds-field\"><label for=\"ds-learning-rate\">Learning rate</label><input id=\"ds-learning-rate\" type=\"number\" value=\"0.001\" min=\"0.0001\" step=\"0.001\" aria-describedby=\"ds-rate-note\"><small id=\"ds-rate-note\">How far the model moves with each update.</small></div>",
+      "css": ".ds-field{font-family:\"Nunito Sans Variable\",-apple-system,BlinkMacSystemFont,\"Segoe UI\",sans-serif;display:flex;flex-direction:column;gap:8px;width:250px}.ds-field label{font-size:11px;font-weight:700;color:#5e6e7a}.ds-field input{font-family:\"Nunito Sans Variable\",-apple-system,BlinkMacSystemFont,\"Segoe UI\",sans-serif;box-sizing:border-box;border:1px solid #dfe7eb;background:#fcfdfd;color:#526c7b;border-radius:6px;padding:10px 11px;font-size:10px;width:100%;height:37px;line-height:1.5;accent-color:var(--teal,#187c6b)}.ds-field input:focus,.ds-field input:focus-visible{border-color:#78ad99;outline:2px solid #dcece5;outline-offset:1px}.ds-field input:disabled{opacity:.46;cursor:not-allowed}.ds-field small{font-size:9px;color:#5d6f76}"
+    },
+    {
+      "name": "Research Navigation",
+      "kind": "nav",
+      "refersTo": "nav-active",
+      "description": "Mint selection, icon labels and a short green rail marker identify the active stage.",
+      "html": "<nav class=\"ds-nav\" aria-label=\"Research pipeline\"><button class=\"ds-nav-item ds-nav-active\" type=\"button\" aria-current=\"page\"><svg width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><rect x=\"3\" y=\"3\" width=\"18\" height=\"18\" rx=\"2\"/><path d=\"M3 12h18M12 3v18\"/></svg><span>Overview</span></button><button class=\"ds-nav-item\" type=\"button\"><svg width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><ellipse cx=\"12\" cy=\"5\" rx=\"8\" ry=\"3\"/><path d=\"M4 5v14a8 3 0 0 0 16 0V5M4 12a8 3 0 0 0 16 0\"/></svg><span>Data studio</span></button></nav>",
+      "css": ".ds-nav{font-family:\"Nunito Sans Variable\",-apple-system,BlinkMacSystemFont,\"Segoe UI\",sans-serif;display:grid;gap:5px;width:200px;padding-left:17px}.ds-nav-item{font-family:\"Nunito Sans Variable\",-apple-system,BlinkMacSystemFont,\"Segoe UI\",sans-serif;position:relative;display:flex;align-items:center;gap:11px;text-align:left;padding:11px 12px;width:100%;border:0;border-radius:8px;background:none;color:#626e79;font-size:11px;font-weight:650;cursor:pointer;transition:background .18s,color .18s,transform .18s}.ds-nav-item:hover{background:#f3f7f7;color:var(--teal,#187c6b)}.ds-nav-item:focus-visible{outline:2px solid #268c7c;outline-offset:4px;}.ds-nav-item:active{transform:translateY(1px)}.ds-nav-active{background:#e9f5f0;color:#237867;font-weight:800}.ds-nav-active:before{content:\"\";position:absolute;left:-17px;top:12px;width:3px;height:17px;background:#3c9b81;border-radius:0 3px 3px 0}@media(prefers-reduced-motion:reduce){.ds-nav-item{transition:none}}"
+    },
+    {
+      "name": "Readiness Chip",
+      "kind": "chip",
+      "refersTo": "status-ready",
+      "description": "A check and text reinforce pale green readiness; a dot marks a pending state.",
+      "html": "<div class=\"ds-chip-row\"><span class=\"ds-chip ds-chip-ready\"><svg width=\"12\" height=\"12\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"m5 12 4 4L19 6\"/></svg>Ready</span><span class=\"ds-chip\"><span class=\"ds-chip-dot\" aria-hidden=\"true\"></span>Awaiting run</span></div>",
+      "css": ".ds-chip-row{display:flex;gap:8px;align-items:center}.ds-chip{font-family:\"Nunito Sans Variable\",-apple-system,BlinkMacSystemFont,\"Segoe UI\",sans-serif;display:inline-flex;align-items:center;gap:5px;background:#f4f1e9;border-radius:4px;padding:4px 7px;font-size:9px;color:#7b6b41;white-space:nowrap}.ds-chip-ready{background:#eaf5ec;color:#507556}.ds-chip-dot{display:inline-block;width:4px;height:4px;border-radius:50%;background:currentColor}"
+    },
+    {
+      "name": "Training Observatory",
+      "kind": "custom",
+      "refersTo": "observatory",
+      "description": "An expanded signature excerpt: network, forecast and optional concept detail. The live instrument adds persistent positioning, state controls and compact responsive modes.",
+      "html": "<section class=\"ds-observatory\" aria-label=\"Training Observatory signature excerpt\"><header class=\"ds-ob-header\"><strong>Learning, in view</strong><span class=\"ds-ob-state\"><i aria-hidden=\"true\"></i>Free preview</span></header><div class=\"ds-ob-body\"><div class=\"ds-ob-network\"><h3>Your model</h3><svg class=\"ds-ob-network-svg\" viewBox=\"0 0 280 142\" role=\"img\" aria-label=\"Three representative layer groups with illustrative forward signal flow\"><path class=\"ds-ob-wire\" d=\"M30 45 140 30 250 55M30 70 140 55 250 80M30 95 140 80 250 55M30 45 140 105 250 80M30 95 140 30 250 55\"/><path class=\"ds-ob-signal\" d=\"M38 65H132M148 65H242\"/><g class=\"ds-ob-units\"><circle cx=\"30\" cy=\"45\" r=\"6\"/><circle cx=\"30\" cy=\"70\" r=\"6\"/><circle cx=\"30\" cy=\"95\" r=\"6\"/><circle cx=\"140\" cy=\"30\" r=\"5\"/><circle cx=\"140\" cy=\"55\" r=\"5\"/><circle cx=\"140\" cy=\"80\" r=\"5\"/><circle cx=\"140\" cy=\"105\" r=\"5\"/><circle cx=\"250\" cy=\"55\" r=\"5\"/><circle cx=\"250\" cy=\"80\" r=\"5\"/></g><text x=\"30\" y=\"127\" text-anchor=\"middle\">Images</text><text x=\"140\" y=\"127\" text-anchor=\"middle\">Filters</text><text x=\"250\" y=\"127\" text-anchor=\"middle\">Classes</text></svg><p class=\"ds-ob-caption\">Representative units · illustrative signal</p></div><div class=\"ds-ob-chart\"><h3>Simulated forecast</h3><svg viewBox=\"0 0 280 142\" role=\"img\" aria-label=\"Illustrative training and validation curves, with a dashed previous configuration\"><path class=\"ds-ob-grid\" d=\"M20 25H265M20 65H265M20 105H265\"/><path class=\"ds-ob-curve ds-ob-previous\" d=\"M20 105 55 88 90 79 125 68 160 62 195 56 230 53 265 52\"/><path class=\"ds-ob-curve ds-ob-train\" d=\"M20 100 55 76 90 59 125 46 160 35 195 27 230 22 265 18\"/><path class=\"ds-ob-curve ds-ob-validation\" d=\"M20 105 55 85 90 70 125 56 160 48 195 43 230 40 265 39\"/></svg><div class=\"ds-ob-legend\"><span><i class=\"ds-ob-train-key\"></i>Train</span><span><i class=\"ds-ob-validation-key\"></i>Validation</span><span><i class=\"ds-ob-previous-key\"></i>Baseline</span></div></div><div class=\"ds-ob-why\"><h3>What changed &amp; why</h3><p>More filters give your model room to discover richer patterns.</p><details class=\"ds-ob-details\"><summary>Explore why</summary><p>Added capacity can improve fit while increasing memory and compute cost. Compare validation evidence before spending on another run.</p></details></div></div><footer class=\"ds-ob-footnote\">Signal flow is illustrative. Epoch metrics are simulated; no measured neuron activations or gradients.</footer></section>",
+      "css": ".ds-observatory{font-family:\"Nunito Sans Variable\",-apple-system,BlinkMacSystemFont,\"Segoe UI\",sans-serif;width:min(100%,820px);background:#fcfefd;color:#283f36;border-top:1px solid #bfcfc7;box-shadow:0 -8px 24px #233d3210}.ds-ob-header{display:flex;align-items:center;gap:15px;padding:9px 20px;min-height:31px;background:#f0f6f2;border-bottom:1px solid #e1e9e4}.ds-ob-header>strong{font-size:15px;letter-spacing:-.3px;color:#31674f}.ds-ob-state{display:inline-flex;align-items:center;gap:6px;font-size:10px;color:#4d6659}.ds-ob-state i{width:5px;height:5px;border-radius:50%;background:#218777;animation:ds-ob-status 1.5s ease-in-out infinite}.ds-ob-body{display:grid;grid-template-columns:minmax(0,1.2fr) minmax(0,.95fr) minmax(0,1.05fr)}.ds-ob-body>div{padding:14px 18px 12px;min-width:0}.ds-ob-body>div+div{border-left:1px solid #e1e9e4}.ds-observatory h3{margin:0;font-size:12px;font-weight:800;letter-spacing:-.1px;color:#2d493c}.ds-ob-network-svg{display:block;width:100%;height:142px;margin-top:3px;border-radius:8px;background:#f4f8f5}.ds-ob-wire{stroke:#91ac9d;stroke-width:.65;opacity:.32;fill:none}.ds-ob-signal{fill:none;stroke:#2f8d70;stroke-width:1.4;stroke-dasharray:5 8;animation:ds-ob-signal-flow 1.3s linear infinite}.ds-ob-units circle{fill:#eff7f1;stroke:#438666;stroke-width:1.4}.ds-ob-network-svg text{fill:#345740;font-size:9px;font-weight:800}.ds-observatory .ds-ob-caption{margin:6px 0 0;font-size:9px;color:#526f60;line-height:1.5}.ds-ob-chart svg{display:block;width:100%;height:142px}.ds-ob-grid{fill:none;stroke:#dce7df;stroke-width:.7}.ds-ob-curve{fill:none;stroke-width:2;stroke-linejoin:round;stroke-linecap:round}.ds-ob-train{stroke:#8b79b2}.ds-ob-validation{stroke:#218777}.ds-ob-previous{stroke:#85948b;stroke-dasharray:3 4;stroke-width:1.5}.ds-ob-legend{display:flex;flex-wrap:wrap;gap:8px;font-size:9px;color:#506859}.ds-ob-legend span{display:flex;align-items:center;gap:4px}.ds-ob-legend i{width:9px;height:2px}.ds-ob-train-key{background:#8b79b2}.ds-ob-validation-key{background:#218777}.ds-ob-previous-key{border-top:1px dashed #85948b}.ds-ob-why p{font-size:11px;line-height:1.7;color:#4c6757;margin:9px 0 0}.ds-ob-details{margin-top:12px}.ds-ob-details summary{cursor:pointer;font-size:10px;font-weight:750;color:#345e49;border-radius:5px;padding:5px 0}.ds-ob-details summary:hover{color:#173a27}.ds-ob-details summary:focus-visible{outline:2px solid #268c7c;outline-offset:4px}.ds-ob-details summary:active{transform:translateY(1px)}.ds-ob-details[open] summary{color:#24573a}.ds-ob-footnote{padding:6px 20px;background:#f6f9f7;border-top:1px solid #e1e9e4;color:#526b5a;font-size:9px;line-height:1.5}@keyframes ds-ob-signal-flow{to{stroke-dashoffset:-39}}@keyframes ds-ob-status{50%{opacity:.4}}@media(max-width:700px){.ds-ob-body{display:block}.ds-ob-body>div+div{border-left:0;border-top:1px solid #e1e9e4}.ds-ob-body>div{padding:8px 13px}}@media(prefers-reduced-motion:reduce){.ds-ob-signal,.ds-ob-state i{animation:none}.ds-ob-details summary:active{transform:none}}"
+    },
+    {
+      "name": "Pipeline Card",
+      "kind": "custom",
+      "refersTo": "pipeline-card",
+      "description": "A pastel stage tile gives the research pipeline its friendly game-like rhythm.",
+      "html": "<button class=\"ds-pipeline\" type=\"button\"><span class=\"ds-pipeline-top\"><span class=\"ds-pipeline-icon\"><svg width=\"17\" height=\"17\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M9 3h6m-5 0v6L4.6 18a2 2 0 0 0 1.7 3h11.4a2 2 0 0 0 1.7-3L14 9V3M8 14h8\"/></svg></span><span class=\"ds-pipeline-number\">03</span></span><strong>Run an experiment</strong><span class=\"ds-pipeline-copy\">Find the balance between fit and generalization.</span><span class=\"ds-pipeline-state\">Get started <svg width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M5 12h14m-6-6 6 6-6 6\"/></svg></span></button>",
+      "css": ".ds-pipeline{font-family:\"Nunito Sans Variable\",-apple-system,BlinkMacSystemFont,\"Segoe UI\",sans-serif;box-sizing:border-box;width:210px;height:168px;background:var(--surface,#fff);border:1px solid var(--border,#e5eaed);text-align:left;border-radius:13px;padding:17px 14px 15px;color:var(--ink,#273746);cursor:pointer;transition:background .18s,color .18s,transform .18s}.ds-pipeline:hover{border-color:#9ec6b5;transform:translateY(-3px);box-shadow:0 8px 20px #28534807}.ds-pipeline:focus-visible{outline:2px solid #268c7c;outline-offset:4px;}.ds-pipeline:active{transform:translateY(1px)}.ds-pipeline-top{display:flex;justify-content:space-between;align-items:center;margin-bottom:15px}.ds-pipeline-icon{display:grid;place-items:center;width:31px;height:31px;border-radius:8px;background:#fff0cf;color:#896726}.ds-pipeline-number{font-size:10px;font-variant-numeric:tabular-nums;color:#616e77}.ds-pipeline strong{display:block;font-size:10px;font-weight:750;margin-bottom:5px;white-space:nowrap}.ds-pipeline-copy{display:block;font-size:10px;line-height:1.8;min-height:30px;color:#5c6f79}.ds-pipeline-state{display:flex;align-items:center;gap:5px;margin-top:13px;font-size:7.5px;font-weight:700;color:#5a6f79}.ds-pipeline-state svg{width:11px;height:11px}@media(prefers-reduced-motion:reduce){.ds-pipeline{transition:none}}"
+    }
+  ],
+  "narrative": {
+    "northStar": "Lab workbench",
+    "overview": "A friendly research game built from cool white surfaces, mint experiments and tactile, rounded controls. The user chose a more playful, game-like world: the heavy rounded type, coral mission action, gently tilted specimen cards and small gold rewards make research feel approachable.\n\nThe interface stays compact enough to compare evidence. Precise borders and tabular numbers support the science; pastel stage icons, lilac prompts and small celebratory accents provide the play. The persistent Training Observatory extends these primitives into a shared learning instrument, with concepts first and optional detail.",
+    "keyCharacteristics": [
+      "Rounded Nunito Sans with confident, heavy headings.",
+      "Cool surfaces, mint and teal actions, coral mission entry.",
+      "Quiet bordered panels with selective tactile lift.",
+      "Small educational annotations beside consequential controls."
+    ],
+    "rules": [
+      {
+        "name": "The Mission Accent Rule",
+        "body": "Preserve coral for the contract's invitation to begin research; ordinary workflow actions use teal.",
+        "section": "colors"
+      },
+      {
+        "name": "The Friendly Precision Rule",
+        "body": "Keep the rounded sans-serif and use weight, spacing and tabular numerals to distinguish scientific information.",
+        "section": "typography"
+      }
+    ],
+    "dos": [
+      "Do use Nunito Sans Variable and heavy, tightly tracked headings.",
+      "Do use cool white panels, quiet borders and mint selection states.",
+      "Do retain coral mission entry, lilac reflection and small gold reward cues.",
+      "Do pair scientific metrics with clear labels and tabular numerals.",
+      "Do keep educational context close to consequential controls.",
+      "Do honor keyboard focus, disabled states and reduced motion."
+    ],
+    "donts": [
+      "Don't replace the playful workbench with a corporate dashboard or spreadsheet aesthetic.",
+      "Don't add a second display face or an unrelated accent palette.",
+      "Don't apply decorative tilt to reading surfaces or data grids.",
+      "Don't use strong floating shadows on every panel.",
+      "Don't rely on color alone to communicate readiness, selection or progress."
+    ]
+  }
+}

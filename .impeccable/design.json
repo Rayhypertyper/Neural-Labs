@@ -1,0 +1,582 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-17T21:38:56.442985+00:00",
+  "title": "Design System: Neural Labs",
+  "extensions": {
+    "colorMeta": {
+      "ink": {
+        "role": "neutral",
+        "displayName": "Deep Ink",
+        "tonalRamp": [
+          "oklch(15% 0.0399 285.69)",
+          "oklch(26% 0.0399 285.69)",
+          "oklch(38% 0.0399 285.69)",
+          "oklch(49% 0.0399 285.69)",
+          "oklch(61% 0.0399 285.69)",
+          "oklch(72% 0.0399 285.69)",
+          "oklch(84% 0.0399 285.69)",
+          "oklch(95% 0.0399 285.69)"
+        ]
+      },
+      "muted": {
+        "role": "neutral",
+        "displayName": "Quiet Ink",
+        "tonalRamp": [
+          "oklch(15% 0.0326 291.82)",
+          "oklch(26% 0.0326 291.82)",
+          "oklch(38% 0.0326 291.82)",
+          "oklch(49% 0.0326 291.82)",
+          "oklch(61% 0.0326 291.82)",
+          "oklch(72% 0.0326 291.82)",
+          "oklch(84% 0.0326 291.82)",
+          "oklch(95% 0.0326 291.82)"
+        ]
+      },
+      "ground": {
+        "role": "neutral",
+        "displayName": "Cool Lilac Ground",
+        "tonalRamp": [
+          "oklch(15% 0.0053 286.30)",
+          "oklch(26% 0.0053 286.30)",
+          "oklch(38% 0.0053 286.30)",
+          "oklch(49% 0.0053 286.30)",
+          "oklch(61% 0.0053 286.30)",
+          "oklch(72% 0.0053 286.30)",
+          "oklch(84% 0.0053 286.30)",
+          "oklch(95% 0.0053 286.30)"
+        ]
+      },
+      "surface": {
+        "role": "neutral",
+        "displayName": "White Surface",
+        "tonalRamp": [
+          "oklch(15% 0.0000 0.00)",
+          "oklch(26% 0.0000 0.00)",
+          "oklch(38% 0.0000 0.00)",
+          "oklch(49% 0.0000 0.00)",
+          "oklch(61% 0.0000 0.00)",
+          "oklch(72% 0.0000 0.00)",
+          "oklch(84% 0.0000 0.00)",
+          "oklch(95% 0.0000 0.00)"
+        ]
+      },
+      "border": {
+        "role": "neutral",
+        "displayName": "Quiet Border",
+        "tonalRamp": [
+          "oklch(15% 0.0149 294.45)",
+          "oklch(26% 0.0149 294.45)",
+          "oklch(38% 0.0149 294.45)",
+          "oklch(49% 0.0149 294.45)",
+          "oklch(61% 0.0149 294.45)",
+          "oklch(72% 0.0149 294.45)",
+          "oklch(84% 0.0149 294.45)",
+          "oklch(95% 0.0149 294.45)"
+        ]
+      },
+      "violet": {
+        "role": "primary",
+        "displayName": "Research Violet",
+        "tonalRamp": [
+          "oklch(15% 0.1717 286.95)",
+          "oklch(26% 0.1717 286.95)",
+          "oklch(38% 0.1717 286.95)",
+          "oklch(49% 0.1717 286.95)",
+          "oklch(61% 0.1717 286.95)",
+          "oklch(72% 0.1717 286.95)",
+          "oklch(84% 0.1717 286.95)",
+          "oklch(95% 0.1717 286.95)"
+        ]
+      },
+      "violet-deep": {
+        "role": "primary",
+        "displayName": "Deep Research Violet",
+        "tonalRamp": [
+          "oklch(15% 0.1598 285.50)",
+          "oklch(26% 0.1598 285.50)",
+          "oklch(38% 0.1598 285.50)",
+          "oklch(49% 0.1598 285.50)",
+          "oklch(61% 0.1598 285.50)",
+          "oklch(72% 0.1598 285.50)",
+          "oklch(84% 0.1598 285.50)",
+          "oklch(95% 0.1598 285.50)"
+        ]
+      },
+      "violet-pale": {
+        "role": "primary",
+        "displayName": "Pale Research Violet",
+        "tonalRamp": [
+          "oklch(15% 0.0216 294.59)",
+          "oklch(26% 0.0216 294.59)",
+          "oklch(38% 0.0216 294.59)",
+          "oklch(49% 0.0216 294.59)",
+          "oklch(61% 0.0216 294.59)",
+          "oklch(72% 0.0216 294.59)",
+          "oklch(84% 0.0216 294.59)",
+          "oklch(95% 0.0216 294.59)"
+        ]
+      },
+      "action": {
+        "role": "primary",
+        "displayName": "Action Violet",
+        "tonalRamp": [
+          "oklch(15% 0.1716 287.86)",
+          "oklch(26% 0.1716 287.86)",
+          "oklch(38% 0.1716 287.86)",
+          "oklch(49% 0.1716 287.86)",
+          "oklch(61% 0.1716 287.86)",
+          "oklch(72% 0.1716 287.86)",
+          "oklch(84% 0.1716 287.86)",
+          "oklch(95% 0.1716 287.86)"
+        ]
+      },
+      "action-hover": {
+        "role": "primary",
+        "displayName": "Action Violet Hover",
+        "tonalRamp": [
+          "oklch(15% 0.1711 286.66)",
+          "oklch(26% 0.1711 286.66)",
+          "oklch(38% 0.1711 286.66)",
+          "oklch(49% 0.1711 286.66)",
+          "oklch(61% 0.1711 286.66)",
+          "oklch(72% 0.1711 286.66)",
+          "oklch(84% 0.1711 286.66)",
+          "oklch(95% 0.1711 286.66)"
+        ]
+      },
+      "focus": {
+        "role": "primary",
+        "displayName": "Focus Violet",
+        "tonalRamp": [
+          "oklch(15% 0.1744 287.89)",
+          "oklch(26% 0.1744 287.89)",
+          "oklch(38% 0.1744 287.89)",
+          "oklch(49% 0.1744 287.89)",
+          "oklch(61% 0.1744 287.89)",
+          "oklch(72% 0.1744 287.89)",
+          "oklch(84% 0.1744 287.89)",
+          "oklch(95% 0.1744 287.89)"
+        ]
+      },
+      "hero-lilac": {
+        "role": "secondary",
+        "displayName": "Specimen Lilac",
+        "tonalRamp": [
+          "oklch(15% 0.0203 295.18)",
+          "oklch(26% 0.0203 295.18)",
+          "oklch(38% 0.0203 295.18)",
+          "oklch(49% 0.0203 295.18)",
+          "oklch(61% 0.0203 295.18)",
+          "oklch(72% 0.0203 295.18)",
+          "oklch(84% 0.0203 295.18)",
+          "oklch(95% 0.0203 295.18)"
+        ]
+      },
+      "stage-lilac": {
+        "role": "secondary",
+        "displayName": "Preparation Lilac",
+        "tonalRamp": [
+          "oklch(15% 0.0249 301.07)",
+          "oklch(26% 0.0249 301.07)",
+          "oklch(38% 0.0249 301.07)",
+          "oklch(49% 0.0249 301.07)",
+          "oklch(61% 0.0249 301.07)",
+          "oklch(72% 0.0249 301.07)",
+          "oklch(84% 0.0249 301.07)",
+          "oklch(95% 0.0249 301.07)"
+        ]
+      },
+      "stage-lilac-ink": {
+        "role": "secondary",
+        "displayName": "Preparation Ink",
+        "tonalRamp": [
+          "oklch(15% 0.0846 300.96)",
+          "oklch(26% 0.0846 300.96)",
+          "oklch(38% 0.0846 300.96)",
+          "oklch(49% 0.0846 300.96)",
+          "oklch(61% 0.0846 300.96)",
+          "oklch(72% 0.0846 300.96)",
+          "oklch(84% 0.0846 300.96)",
+          "oklch(95% 0.0846 300.96)"
+        ]
+      },
+      "stage-peach": {
+        "role": "secondary",
+        "displayName": "Model Peach",
+        "tonalRamp": [
+          "oklch(15% 0.0246 61.64)",
+          "oklch(26% 0.0246 61.64)",
+          "oklch(38% 0.0246 61.64)",
+          "oklch(49% 0.0246 61.64)",
+          "oklch(61% 0.0246 61.64)",
+          "oklch(72% 0.0246 61.64)",
+          "oklch(84% 0.0246 61.64)",
+          "oklch(95% 0.0246 61.64)"
+        ]
+      },
+      "stage-peach-ink": {
+        "role": "secondary",
+        "displayName": "Model Ink",
+        "tonalRamp": [
+          "oklch(15% 0.0755 50.94)",
+          "oklch(26% 0.0755 50.94)",
+          "oklch(38% 0.0755 50.94)",
+          "oklch(49% 0.0755 50.94)",
+          "oklch(61% 0.0755 50.94)",
+          "oklch(72% 0.0755 50.94)",
+          "oklch(84% 0.0755 50.94)",
+          "oklch(95% 0.0755 50.94)"
+        ]
+      },
+      "stage-blue": {
+        "role": "secondary",
+        "displayName": "Training Blue",
+        "tonalRamp": [
+          "oklch(15% 0.0166 259.42)",
+          "oklch(26% 0.0166 259.42)",
+          "oklch(38% 0.0166 259.42)",
+          "oklch(49% 0.0166 259.42)",
+          "oklch(61% 0.0166 259.42)",
+          "oklch(72% 0.0166 259.42)",
+          "oklch(84% 0.0166 259.42)",
+          "oklch(95% 0.0166 259.42)"
+        ]
+      },
+      "stage-blue-ink": {
+        "role": "secondary",
+        "displayName": "Training Ink",
+        "tonalRamp": [
+          "oklch(15% 0.0566 249.82)",
+          "oklch(26% 0.0566 249.82)",
+          "oklch(38% 0.0566 249.82)",
+          "oklch(49% 0.0566 249.82)",
+          "oklch(61% 0.0566 249.82)",
+          "oklch(72% 0.0566 249.82)",
+          "oklch(84% 0.0566 249.82)",
+          "oklch(95% 0.0566 249.82)"
+        ]
+      },
+      "stage-pistachio": {
+        "role": "secondary",
+        "displayName": "Evaluation Pistachio",
+        "tonalRamp": [
+          "oklch(15% 0.0266 113.83)",
+          "oklch(26% 0.0266 113.83)",
+          "oklch(38% 0.0266 113.83)",
+          "oklch(49% 0.0266 113.83)",
+          "oklch(61% 0.0266 113.83)",
+          "oklch(72% 0.0266 113.83)",
+          "oklch(84% 0.0266 113.83)",
+          "oklch(95% 0.0266 113.83)"
+        ]
+      },
+      "stage-pistachio-ink": {
+        "role": "secondary",
+        "displayName": "Evaluation Ink",
+        "tonalRamp": [
+          "oklch(15% 0.0696 118.84)",
+          "oklch(26% 0.0696 118.84)",
+          "oklch(38% 0.0696 118.84)",
+          "oklch(49% 0.0696 118.84)",
+          "oklch(61% 0.0696 118.84)",
+          "oklch(72% 0.0696 118.84)",
+          "oklch(84% 0.0696 118.84)",
+          "oklch(95% 0.0696 118.84)"
+        ]
+      },
+      "notebook-lilac": {
+        "role": "secondary",
+        "displayName": "Notebook Lilac",
+        "tonalRamp": [
+          "oklch(15% 0.0186 317.73)",
+          "oklch(26% 0.0186 317.73)",
+          "oklch(38% 0.0186 317.73)",
+          "oklch(49% 0.0186 317.73)",
+          "oklch(61% 0.0186 317.73)",
+          "oklch(72% 0.0186 317.73)",
+          "oklch(84% 0.0186 317.73)",
+          "oklch(95% 0.0186 317.73)"
+        ]
+      },
+      "nav-selected": {
+        "role": "primary",
+        "displayName": "Selected Lilac",
+        "tonalRamp": [
+          "oklch(15% 0.0246 298.61)",
+          "oklch(26% 0.0246 298.61)",
+          "oklch(38% 0.0246 298.61)",
+          "oklch(49% 0.0246 298.61)",
+          "oklch(61% 0.0246 298.61)",
+          "oklch(72% 0.0246 298.61)",
+          "oklch(84% 0.0246 298.61)",
+          "oklch(95% 0.0246 298.61)"
+        ]
+      },
+      "nav-ink": {
+        "role": "primary",
+        "displayName": "Navigation Ink",
+        "tonalRamp": [
+          "oklch(15% 0.1617 288.51)",
+          "oklch(26% 0.1617 288.51)",
+          "oklch(38% 0.1617 288.51)",
+          "oklch(49% 0.1617 288.51)",
+          "oklch(61% 0.1617 288.51)",
+          "oklch(72% 0.1617 288.51)",
+          "oklch(84% 0.1617 288.51)",
+          "oklch(95% 0.1617 288.51)"
+        ]
+      },
+      "field": {
+        "role": "neutral",
+        "displayName": "Field Paper",
+        "tonalRamp": [
+          "oklch(15% 0.0028 308.43)",
+          "oklch(26% 0.0028 308.43)",
+          "oklch(38% 0.0028 308.43)",
+          "oklch(49% 0.0028 308.43)",
+          "oklch(61% 0.0028 308.43)",
+          "oklch(72% 0.0028 308.43)",
+          "oklch(84% 0.0028 308.43)",
+          "oklch(95% 0.0028 308.43)"
+        ]
+      },
+      "field-ink": {
+        "role": "neutral",
+        "displayName": "Field Ink",
+        "tonalRamp": [
+          "oklch(15% 0.0448 305.60)",
+          "oklch(26% 0.0448 305.60)",
+          "oklch(38% 0.0448 305.60)",
+          "oklch(49% 0.0448 305.60)",
+          "oklch(61% 0.0448 305.60)",
+          "oklch(72% 0.0448 305.60)",
+          "oklch(84% 0.0448 305.60)",
+          "oklch(95% 0.0448 305.60)"
+        ]
+      },
+      "validation": {
+        "role": "tertiary",
+        "displayName": "Validation Green",
+        "tonalRamp": [
+          "oklch(15% 0.0861 169.06)",
+          "oklch(26% 0.0861 169.06)",
+          "oklch(38% 0.0861 169.06)",
+          "oklch(49% 0.0861 169.06)",
+          "oklch(61% 0.0861 169.06)",
+          "oklch(72% 0.0861 169.06)",
+          "oklch(84% 0.0861 169.06)",
+          "oklch(95% 0.0861 169.06)"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "Centered two-line contract introduction."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "Stage and notebook headings."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "Section hierarchy within the workspace."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Clear reading copy and educational explanations."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Controls, navigation and compact annotations."
+      }
+    },
+    "shadows": [
+      {
+        "name": "specimen",
+        "value": "0 10px 25px #6e558915",
+        "purpose": "Selective depth for specimen frames."
+      },
+      {
+        "name": "field-guide",
+        "value": "-12px 0 45px #38285413",
+        "purpose": "Distinguish the open explanatory drawer."
+      },
+      {
+        "name": "tooltip",
+        "value": "0 8px 28px #35204f17",
+        "purpose": "Temporary contextual help."
+      },
+      {
+        "name": "observatory",
+        "value": "0 -4px 22px #58416b08",
+        "purpose": "Quiet upward edge for the persistent instrument."
+      }
+    ],
+    "motion": [
+      {
+        "name": "control",
+        "value": "180ms",
+        "purpose": "Standard background, color and press transitions."
+      },
+      {
+        "name": "field-guide",
+        "value": "220ms ease",
+        "purpose": "Drawer translation."
+      },
+      {
+        "name": "accordion",
+        "value": "500ms cubic-bezier(0.2, 0.8, 0.2, 1)",
+        "purpose": "Desktop stage width changes."
+      },
+      {
+        "name": "specimen",
+        "value": "650ms cubic-bezier(0.2, 0.8, 0.2, 1)",
+        "purpose": "Specimen tilt response."
+      },
+      {
+        "name": "specimen-image",
+        "value": "700ms ease-out",
+        "purpose": "Image scale and saturation on hover."
+      },
+      {
+        "name": "marquee",
+        "value": "36s linear infinite",
+        "purpose": "Pausable research topic strip; removed for reduced motion."
+      },
+      {
+        "name": "notebook-scroll",
+        "value": "scrub: true; ease: none",
+        "purpose": "GSAP evidence reveal and pinned introduction only from 1100px with motion permitted."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "wide-rail",
+        "value": "1600px"
+      },
+      {
+        "name": "compact-rail",
+        "value": "1250px"
+      },
+      {
+        "name": "notebook-motion",
+        "value": "1100px"
+      },
+      {
+        "name": "single-column-notebook",
+        "value": "1000px"
+      },
+      {
+        "name": "mobile-drawer",
+        "value": "760px"
+      },
+      {
+        "name": "small-overview",
+        "value": "540px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "The next consequential action.",
+      "html": "<button class=\"ds-primary\">Begin research</button>",
+      "css": ".ds-primary{font-family:\"Geist Variable\",sans-serif;min-height:42px;padding:11px 17px;border:0;border-radius:8px;background:#6a54c7;color:#fff;font-size:12px;font-weight:550;cursor:pointer;transition:background 180ms,transform 180ms}.ds-primary:hover{background:#5741b2}.ds-primary:active{transform:translateY(1px)}.ds-primary:disabled{opacity:.48}.ds-primary:focus-visible,.ds-secondary:focus-visible,.ds-field:focus-visible,.ds-nav:focus-visible,.ds-stage:focus-visible,.ds-ob-button:focus-visible{outline:2px solid #6952c7;outline-offset:4px}"
+    },
+    {
+      "name": "Secondary button",
+      "kind": "button",
+      "refersTo": "button-secondary",
+      "description": "A supporting action beside the primary decision.",
+      "html": "<button class=\"ds-secondary\">Open notebook</button>",
+      "css": ".ds-secondary{font-family:\"Geist Variable\",sans-serif;min-height:42px;padding:11px 17px;border:1px solid #dbd5e8;border-radius:8px;background:#fff;color:#625677;font-size:12px;font-weight:550;cursor:pointer;transition:background 180ms,transform 180ms}.ds-secondary:hover{background:#f1edfa;border-color:#b8a9d5}.ds-secondary:active{transform:translateY(1px)}.ds-primary:focus-visible,.ds-secondary:focus-visible,.ds-field:focus-visible,.ds-nav:focus-visible,.ds-stage:focus-visible,.ds-ob-button:focus-visible{outline:2px solid #6952c7;outline-offset:4px}"
+    },
+    {
+      "name": "Learning field",
+      "kind": "input",
+      "refersTo": "input",
+      "description": "A labeled editable decision with nearby context.",
+      "html": "<label class=\"ds-field-label\" for=\"ds-epochs\">Training epochs</label><input class=\"ds-field\" id=\"ds-epochs\" type=\"number\" value=\"12\" min=\"1\">",
+      "css": ".ds-field-label{display:block;margin-bottom:8px;font-family:\"Geist Variable\",sans-serif;font-size:12px;color:#5c526a}.ds-field{font-family:\"Geist Variable\",sans-serif;min-height:38px;padding:10px 11px;background:#fdfcfe;color:#554963;border:1px solid #e3dcea;border-radius:7px;font-size:12px;caret-color:#6952c7}.ds-field:hover{border-color:#b8a9d5}.ds-field:focus{border-color:#9a7bcd}.ds-primary:focus-visible,.ds-secondary:focus-visible,.ds-field:focus-visible,.ds-nav:focus-visible,.ds-stage:focus-visible,.ds-ob-button:focus-visible{outline:2px solid #6952c7;outline-offset:4px}"
+    },
+    {
+      "name": "Selected navigation",
+      "kind": "nav",
+      "refersTo": "nav-selected",
+      "description": "A comfortable icon-and-text rail row; active state also changes weight.",
+      "html": "<nav aria-label=\"Workspace\"><button class=\"ds-nav\" aria-current=\"page\">Your overview</button></nav>",
+      "css": ".ds-nav{font-family:\"Geist Variable\",sans-serif;display:block;width:205px;min-height:45px;text-align:left;padding:12px 13px;border:0;border-radius:8px;background:#eee9fb;color:#5a43ad;font-size:12px;font-weight:650;cursor:pointer;transition:background 180ms}.ds-nav:hover{background:#e9e1f9}.ds-nav:active{transform:translateY(1px)}.ds-primary:focus-visible,.ds-secondary:focus-visible,.ds-field:focus-visible,.ds-nav:focus-visible,.ds-stage:focus-visible,.ds-ob-button:focus-visible{outline:2px solid #6952c7;outline-offset:4px}"
+    },
+    {
+      "name": "Contract category",
+      "kind": "chip",
+      "refersTo": "contract-chip",
+      "description": "A compact, non-interactive category marker.",
+      "html": "<span class=\"ds-chip\">Vision research</span>",
+      "css": ".ds-chip{display:inline-block;font-family:\"Geist Variable\",sans-serif;background:#f5eefb;color:#725289;border-radius:4px;padding:4px 7px;font-size:10px}"
+    },
+    {
+      "name": "Learning stage",
+      "kind": "card",
+      "refersTo": "learning-stage",
+      "description": "A numbered, colored stage with an explicit next step.",
+      "html": "<button class=\"ds-stage\"><span class=\"ds-order\">02 / 04</span><h3>Build your model</h3><p>Choose an architecture and see how its capacity changes the experiment.</p><span class=\"ds-stage-state\">Next: choose an architecture \u2192</span></button>",
+      "css": ".ds-stage{display:flex;flex-direction:column;min-height:280px;max-width:290px;text-align:left;font-family:\"Geist Variable\",sans-serif;background:#f9e9dc;color:#805135;border:0;border-radius:12px;padding:22px 20px 19px;cursor:pointer;transition:transform 180ms}.ds-stage:hover{transform:translateY(-3px)}.ds-order{font-size:12px;font-weight:550;font-variant-numeric:tabular-nums}.ds-stage h3{font-size:19px;font-weight:600;line-height:1.25;letter-spacing:-.035em;max-width:12ch;margin:30px 0 0}.ds-stage p{font-size:11px;line-height:1.75;color:inherit;margin:12px 0 18px}.ds-stage-state{font-size:9px;margin-top:auto;padding-top:18px}.ds-primary:focus-visible,.ds-secondary:focus-visible,.ds-field:focus-visible,.ds-nav:focus-visible,.ds-stage:focus-visible,.ds-ob-button:focus-visible{outline:2px solid #6952c7;outline-offset:4px}@media(prefers-reduced-motion:reduce){.ds-stage{transition:none}}"
+    },
+    {
+      "name": "Notebook evidence",
+      "kind": "card",
+      "refersTo": "panel",
+      "description": "Flat white evidence with precise metrics and clear reading order.",
+      "html": "<section class=\"ds-evidence\"><h3>Research notebook</h3><p>Experiment 01</p><strong>87.4% <small>validation accuracy</small></strong></section>",
+      "css": ".ds-evidence{font-family:\"Geist Variable\",sans-serif;padding:26px;border:1px solid var(--border,#e5e3ee);border-radius:12px;background:#fff;max-width:380px}.ds-evidence h3{font-size:13px;color:#6d587d;letter-spacing:-.02em;margin:0}.ds-evidence p{font-size:10px;color:#73607c;margin:24px 0 12px}.ds-evidence strong{font-size:24px;font-weight:600;font-variant-numeric:tabular-nums;color:#675388}.ds-evidence small{display:block;margin-top:5px;font-size:10px;font-weight:400;color:#725b81}"
+    },
+    {
+      "name": "Minimized Observatory",
+      "kind": "custom",
+      "refersTo": "observatory-minimized",
+      "description": "Persistent simulation status with an explicit way to reopen the instrument.",
+      "html": "<section class=\"ds-ob\"><h2>Learning, in view</h2><span>Simulation ready</span><button class=\"ds-ob-button\">Explore \u2197</button></section>",
+      "css": ".ds-ob{font-family:\"Geist Variable\",sans-serif;display:flex;align-items:center;gap:16px;min-height:55px;padding:0 22px;background:#fcfaff;border-top:1px solid #dbd1e9;color:#584265;box-shadow:0 -4px 22px #58416b08}.ds-ob h2{font-size:13px;letter-spacing:-.035em;font-weight:600;color:#76618b;margin:0}.ds-ob span{font-size:10px;color:#735b80;margin-left:auto}.ds-ob-button{font-family:inherit;color:#735388;background:none;border:0;font-size:11px;padding:8px;cursor:pointer}.ds-ob-button:hover{color:#604077}.ds-ob-button:active{transform:translateY(1px)}.ds-primary:focus-visible,.ds-secondary:focus-visible,.ds-field:focus-visible,.ds-nav:focus-visible,.ds-stage:focus-visible,.ds-ob-button:focus-visible{outline:2px solid #6952c7;outline-offset:4px}"
+    }
+  ],
+  "narrative": {
+    "northStar": "The curiosity lab",
+    "overview": "A cheerful research game with the clarity of a science exhibition catalogue. Soft lilac ground, white work surfaces, precise separators and colorful learning stages make consequential experiments approachable. Geist supplies a clear technical voice without making the workspace feel corporate.\n\nSpecimen photography and the player's own evidence lead the experience. Generous introductions give way to practical controls, a notebook and an on-demand field guide. Keep the language clear, encouraging and specific about the next decision; scientific metrics stay precise and visibly simulated.",
+    "keyCharacteristics": [
+      "Locally bundled Geist, clean hierarchy and tabular metrics.",
+      "Violet actions with lilac, peach, blue and pistachio learning stages.",
+      "Flat white work surfaces with selective lift for specimens and temporary layers.",
+      "Educational context beside consequential controls."
+    ],
+    "rules": [
+      {
+        "name": "The Paired Ink Rule",
+        "body": "Keep each pastel stage with its corresponding dark ink. Color supports the stage name, sequence number and written state.",
+        "section": "colors"
+      },
+      {
+        "name": "The Quiet Surface Rule",
+        "body": "Keep working panels flat; use lift to distinguish specimens, temporary context and an explicit interaction.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "**Do** use locally bundled Geist with clear weight and size hierarchy.",
+      "**Do** retain paired pastel stages and their dark, reviewed text colors.",
+      "**Do** give specimens, decisions and recorded evidence clear visual priority.",
+      "**Do** keep labels, units, learning context and simulated-state explanations visible.",
+      "**Do** preserve keyboard focus, drawer dismissal and reduced-motion behavior."
+    ],
+    "donts": [
+      "**Don't** turn the learning lab into a corporate dashboard, course or spreadsheet interface.",
+      "**Don't** restore the previous Nunito and mint visual system in new screens.",
+      "**Don't** tilt reading surfaces or data grids.",
+      "**Don't** add strong floating shadows to every panel.",
+      "**Don't** rely on color alone for progress, readiness or selection."
+    ]
+  }
+}
