@@ -1,0 +1,4 @@
+Duration: 34.63 seconds
+Resolution: 1440x900
+Voice: Samantha
+Captions: burned in + SRT sidecar

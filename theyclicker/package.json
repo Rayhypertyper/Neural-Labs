@@ -1,0 +1,11 @@
+{
+  "name": "theyclicker",
+  "version": "1.1.1",
+  "private": true,
+  "description": "A local iClicker join and random multiple-choice helper",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "test": "node --test test/*.test.cjs",
+    "check": "node --check src/core.js && node --check src/browser.js && node --check extension/background.js && npm test && npm run build"
+  }
+}
